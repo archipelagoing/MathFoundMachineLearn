@@ -1,0 +1,32 @@
+title: Mathematical Foundations of Machine Learning
+description: Notes on the mathematics behind machine learning.
+theme: just-the-docs
+
+url: "https://archipelagoing.github.io"
+baseurl: "/MathFoundMachineLearn"
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "View on GitHub":
+    - "https://github.com/archipelagoing/MathFoundMachineLearn"
+aux_links_new_tab: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
+  - .bundle/
