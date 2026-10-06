@@ -37,3 +37,13 @@ Open <http://localhost:4000/MathFoundMachineLearn/>.
 - Use Jekyll's `relative_url` filter for internal links so they work under the repository's GitHub Pages path.
 
 The build workflow is in `.github/workflows/pages.yml`.
+
+## Gram–Schmidt walkthrough
+
+The Problem 4 page is in `docs/gram-schmidt.md`. Its ten-step walkthrough uses local JavaScript and SVG, with no external visualization dependencies. The 3D display uses an orthonormal coordinate system for the three-dimensional subspace containing this problem's vectors in ℝ⁴, preserving their lengths and angles.
+
+To check the basis, projection, closest-point identity, and display geometry with Node.js:
+
+```sh
+node tests/gram-schmidt.mjs
+```

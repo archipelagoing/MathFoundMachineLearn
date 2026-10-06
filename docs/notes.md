@@ -8,6 +8,10 @@ permalink: /docs/notes/
 
 Study notes and worked examples will be collected here as the site develops.
 
+## Interactive worked examples
+
+[Gram–Schmidt · Assignment 2, Problem 4]({{ "/docs/gram-schmidt/" | relative_url }}) — build an orthonormal basis and find the closest vector, with a 3D view for every step.
+
 ## Suggested learning path
 
 1. Review vectors, matrices, and systems of linear equations.

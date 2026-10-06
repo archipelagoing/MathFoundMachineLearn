@@ -30,3 +30,4 @@ exclude:
   - LICENSE
   - vendor/
   - .bundle/
+  - tests/
